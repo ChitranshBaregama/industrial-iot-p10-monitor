@@ -1,0 +1,16 @@
+# Local deployment configuration contains phone numbers and network details
+firmware/IndustrialMonitor/config.h
+*.local.h
+.env
+.env.*
+!.env.example
+
+# Build outputs / editor files
+.pio/
+.vscode/
+build/
+*.hex
+*.elf
+*.bin
+*.map
+.DS_Store
